@@ -1,0 +1,37 @@
+body {
+  /* background-color: khaki; */
+  color: red;
+  font-family: "Courier New";
+}
+
+* {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+body p {
+  color: coral;
+}
+
+.if {
+  font-size: 3rem;
+}
+
+#bpp {
+  color: rebeccapurple;
+}
+
+.if:hover {
+  color: blue;
+  font-size: 4rem;
+
+  border-bottom: 10px dotted black;
+}
+
+div {
+  border: 10px;
+  padding: 10px;
+  float: left;
+}

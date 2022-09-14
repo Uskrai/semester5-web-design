@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: white;
+  position: sticky;
+  border-bottom: 1px solid rgb(243 244 246);
+}
+
+.topbar > * {
+  padding: 4px 8px 4px 8px;
+  flex-direction: row;
+  display: flex;
+}
+
+.menubar  {
+  padding: 0 8px 0 8px;
+  flex-direction: row;
+  display: flex;
+}
+
+.menubar > * {
+  padding: 4px 8px 8px 4px;
+  background-color: inherit;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.menubar > *:hover {
+  background-color: rgb(210 210 210);
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.sidebar {
+  position: fixed;
+  border-right: 1px solid black;
+  min-height: 100vh;
+  left: 0;
+  padding: 4px;
+  overflow-y: visible;
+  width: 80px;
+  background-color: rgb(243 244 246);
+}
+
+.sidebar > ul {
+  list-style: none;
+  padding-left: 0px;
+  align-items: initial;
+}
+
+.sidebar > ul > li {
+  text-align: initial;
+}
+
+ul.list-button > li > * {
+  background-color: inherit;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  padding: 8px;
+  padding-left: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.bg-on-hover > * :hover {
+  background-color: rgb(210 210 210);
+}
