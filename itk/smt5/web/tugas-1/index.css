@@ -71,11 +71,10 @@ ul.list-button > li > * {
   padding-left: 100px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-}
-
 .bg-on-hover > * :hover {
   background-color: rgb(210 210 210);
+}
+
+.footer {
+  text-align: center;
 }
