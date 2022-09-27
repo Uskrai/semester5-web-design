@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas Javascript dan CSS Kelas A</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <form class="form-input" onsubmit="" id="form-1">
+      <label for="name">Name</label>
+      <input type="text" name="name" value="" />
+      <label for="birthdate">Tanggal Lahir</label>
+      <input type="date" name="birthdate" value="" />
+      <label for="address">Alamat</label>
+      <textarea cols="20" rows="5" name="address"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+      document.addEventListener("submit", (e) => {
+        onclickSubmit(event, ["name", "birthdate", "address"]);
+      });
+    </script>
+  </body>
+</html>
